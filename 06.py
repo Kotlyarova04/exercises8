@@ -5,8 +5,10 @@ def sqaure_decorator(func):
         return result
     return wrapped
 
+
 @sqaure_decorator
 def square(x):
     return x**2
+
 
 print(square(4))
